@@ -2,7 +2,7 @@
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgb(60, 20, 204);
+    border-bottom: 1px solid rgb(198, 195, 207);
     height: 70px;
 }
 .icon{
@@ -10,7 +10,7 @@
     height: 50px;
 }
 .footer{
-    border-top: 1px solid rgb(5, 172, 55);
+    border-top: 1px solid rgb(214, 5, 22);
     height: 50px;
     text-align: center;
 }
