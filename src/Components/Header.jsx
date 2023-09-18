@@ -1,14 +1,14 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import logoimg from "../Img/logo.png";
+import logo from "../img/logo.png"
+
 export const Header = () => {
   return (
     <header className="header">
-      <Link className="icon" to={"/"}>
-        <img src={logoimg} alt="" />
-      </Link>
+      <Link className="icon" to={"/"}><img src={logo} /></Link>
       <nav>
-        <Link to={"/"}>Producto</Link>
-        <Link to={"/"}>Favorito</Link>
+        <Link to={"/"}>Productos</Link>
+        <Link to={"/favoritos"}>Favoritos</Link>
       </nav>
     </header>
   );
